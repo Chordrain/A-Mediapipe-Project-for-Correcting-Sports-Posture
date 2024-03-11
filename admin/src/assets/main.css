@@ -1,7 +1,14 @@
+@font-face {
+  font-family: "San Francisco Pro";
+  src: url(./SanFranciscoPro.ttf);
+}
+
+
 * {
 	padding: 0;
 	margin: 0;
-	font-size: 1rem;
+	font-size: 16px;
+	font-family: "San Francisco Pro", "Times New Roman", "华文中宋";
 }
 
 html,
@@ -23,4 +30,11 @@ a:active {
 /* 加上这句话，elemetnplus中的表格才能撑满父元素 */
 table {
 	width: 100% !important;
+}
+
+.shorcut-icon-wrapper .el-card__body {
+    display: flex;
+    justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }

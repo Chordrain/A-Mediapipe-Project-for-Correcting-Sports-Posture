@@ -15,7 +15,7 @@ const tableData = [
     {
         class: "1 班",
         number: "2",
-        name: "娄晨曦",
+        name: "王敏怡",
         sex: "女",
         account: "学生2",
         latest: '2024年2月29日12点02分',
@@ -126,7 +126,7 @@ const tableData = [
     }
 ]
 let pageInfoStore = usePageInfoStore();
-pageInfoStore.pageNameHint = "管 理 / 学生管理";
+pageInfoStore.pageNameHint = "管 理 / 学生信息";
 </script>
 
 <template>
